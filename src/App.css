@@ -146,4 +146,10 @@ button a i {
   .forecast-temp {
     font-size: 16px; /* Further reduce font size on very small screens */
   }
+  .forecast h2 {
+    text-align: center; /* Center the text horizontally */
+    width: 100%; /* Ensure it takes full width */
+    margin: 0; /* Remove default margin for better control */
+    padding: 10px 0; /* Add some padding for spacing */
+  }
 }
