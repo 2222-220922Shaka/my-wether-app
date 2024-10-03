@@ -24,7 +24,7 @@ const App = () => {
         if (weatherResponse.status === 404) {
           setError("Sorry, that city does not exist. Please type a city again.");
         } else {
-          setError("An error occurred while fetching weather data.");
+          setError("Please Enter city name");
         }
         setWeatherData(null);
         setForecastData(null); // Reset forecast data on error
