@@ -20,7 +20,7 @@ const Forecast = ({ data }) => {
             <p className="forecast-temp">
               Temp: {Math.round(item.main.temp)} °C
             </p> {/* Display rounded temperature with class */}
-            <p>Weather: {item.weather[0].ddescription}</p>
+            <p>Weather: {item.weather[0].description}</p>
           </div>
         ))}
       </div>
