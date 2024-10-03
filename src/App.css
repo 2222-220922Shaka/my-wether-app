@@ -131,3 +131,19 @@ button a i {
   cursor: pointer;
   transform: scale(1.1);
 }
+.forecast-item:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Slightly reduced scale for hover effect */
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 600px) {
+  .forecast-item {
+    flex: 1 1 100%; /* Stack items on smaller screens */
+    max-width: 100%; /* Allow full width on small screens */
+  }
+  
+  .forecast-temp {
+    font-size: 16px; /* Further reduce font size on very small screens */
+  }
+}
